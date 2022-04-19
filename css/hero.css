@@ -1,0 +1,47 @@
+.hero {
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-img {
+    height: 50%;
+}
+
+.hero-img img {
+    height: 100%;
+}
+
+.presentation-title {
+    font-size: 3em;
+}
+
+.presentation-subtitle {
+    font-size: 5em;
+}
+h2 {
+    display: inline-block;
+    position: relative;
+    color: black;
+  }
+  
+  h2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffb7c5;
+    transform-origin: bottom right;
+    transition: transform 1.25s ease-out;
+  }
+  
+  h2:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  

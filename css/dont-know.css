@@ -1,0 +1,35 @@
+.dont-know-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.dont-know-text {
+    width: 30%;
+    background-color: #d90368;
+    padding: 1rem;
+    border-radius: 5%;
+    color: #fbfffe;
+}
+
+.dont-know-title {
+    font-size: 3em;
+}
+
+.dont-know-subtitle {
+    font-size: 2em;
+}
+
+.tours-btn {
+    background-color: #fbfffe ;
+    color: black;
+    border: none;
+    padding: .3rem;
+    font-size: 1.5em;
+    border-radius: 5%;
+    margin-top: 1em;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}

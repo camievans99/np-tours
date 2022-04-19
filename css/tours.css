@@ -1,0 +1,70 @@
+.divisor {
+  height: 10vh;
+}
+
+.tour-1,
+.tour-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.tour-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1rem
+}
+
+.tour-text {
+  width: 45%;
+}
+.tour-title-sakura {
+  color: #ffb7c5;
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.tour-title-cherry {
+  color: #d90368;
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.subtitle-cherry {
+  color: #d90368;
+  font-size: 2em;
+  font-weight: lighter;
+}
+.subtitle-sakura {
+  color: #ffb7c5;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.tour-photo {
+  width: 25%;
+}
+
+.text {
+  font-weight: bolder;
+}
+
+ul li {
+  font-weight: bolder;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery-img {
+  width: 25%;
+}
