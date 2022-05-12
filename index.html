@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/dont-know.css">
     <link rel="stylesheet" href="./css/tours.css">
+    <link rel="stylesheet" href="./css/about-us.css">
 </head>
 <body>
     <header class="fix-nav">
@@ -24,12 +25,13 @@
             <img class="logo" src="./img/logo.png" alt="logo nippon tours">
         </section>
         <section class="categoria-container">
-            <a class="categoria" href="#About us"> About us </a>
+            <a class="categoria" href="#home"> Home </a>
             <a class="categoria" href="#Tours"> Tours disponibles</a>
+            <a href="#Aboutus" class="categoria">Nosotros</a>
             <a class="categoria" href="#Contact"> Contactanos </a>
         </section>
     </header>
-    <section class="hero">
+    <section class="hero" id="home">
         <article class="hero-img">
             <img src="./img/undraw_japan_ubgk (1).svg" alt="Ilustracion arbol japones">
         </article>
@@ -45,12 +47,12 @@
         <article class="dont-know-text">
             <h1 class="dont-know-title"> ¿No sabes por donde empezar? </h1>
             <h3 class="dont-know-subtitle">¡No te preocupes! Chequea nuestros itinerarios y no se te escapará un solo rincón de Tokyo. Nuestros guías con años de experiencia en Japon te llevarán a los lugares más emblemáticos, y en tu idioma!</h3>
-            <a href="#recorridos"><button class="tours-btn"> Recorridos </button></a>
+            <a href="#Tours"><button class="tours-btn"> Recorridos </button></a>
         </article>
     </section>
     <section class="divisor">
     </section>
-    <section class="tour-1">
+    <section class="tour-1" id="Tours">
         <article class="tour-text">
             <h1 class="tour-title-sakura"> Tokyo mix </h1>
             <h3 class="subtitle-cherry"> Asakusa-Ueno-Ginza-Odaiba</h3>
@@ -74,16 +76,17 @@
     </section>
     <section class="tour-2">
         <article class="tour-text">
-            <h1 class="tour-title-cherry"> Tokyo mix </h1>
-            <h3 class="subtitle-sakura"> Asakusa-Ueno-Ginza-Odaiba</h3>
-            <p class="text"> Este tour combina la tradición, la naturaleza y la modernidad de Tokio.</p>
+            <h1 class="tour-title-cherry"> Tokyo cool </h1>
+            <h3 class="subtitle-sakura"> Shibuya-Harajuku-Shinjuku</h3>
+            <p class="text"> Disfrutemos de la ciudad y la moda de Tokio, con un toque de tradición.</p>
             <ul class="recorrido">
-                <li>Comenzaremos el paseo por el templo Sensō-Ji, el más famoso y antiguo de Tokio. Siéntete en el Japón de antaño con su tradicional arquitectura.</li>
-                <li>Llévate un recuerdo y prueba un dulce de la famosa calle Nakamise Dori.</li>
-                <li>Disfruta de una vista completa del templo y del barrio de Asakusa, desde el mirador del centro de información.</li>
-                <li>A continuación iremos al Parque Ueno donde recorreremos sus templos y museos, y nos empaparemos de su historia y sus hermosas vistas.</li>
-                <li>Seguiremos el recorrido hasta el lujoso barrio de Ginza, con sus numerosas tiendas de las marcas más importantes, y sus edificios de reconocidos arquitectos.</li>
-                <li>Por último, nos iremos de paseo a la moderna isla artificial de Odaiba, con su impresionante vista del Rainbow Bridge y la Bahía de Tokio durante de la noche.</li>
+                <li>Comenzaremos por uno de los barrios más trendy, Shibuya. Cruzaremos por el famoso Cruce de Shibuya y visitaremos la estatua del perro fiel, Hachiko.</li>
+                <li>Disfrutemos de las vistas de la ciudad desde el mirador princiapl de Shibuya (mirador pago)</li>
+                <li>Tomemos un té de tapioca en la terraza del centro comercial más moderno del area.</li>
+                <li>Continuemos hasta el barrio vecino, Harajuku. Conocido como el barrio de la moda, donde cada día se pasean jóvenes vestidos con las últimas tendencias. Este barrio alberga numerosas tiendas de diseñadores independientes en la famosa calle de Takeshita Street.</li>
+                <li>Contrastando con este paisaje, allí mismo encontraremos el Parque Yoyogi y el santuario Meiji Jingu, dedicado al Emperador Meiji y su esposa, la Emperatriz Shōken.</li>
+                <li>Caminaremos por la exclusiva avenida Omotesando, conocida como “Los campos Elíseos de Tokio”, y su gran cantidad de tiendas de lujo.</li>
+                <li>Por último, nos dirigiremos al barrio de Shinjuku, con sus imponentes luces de neon, sus callejones repletos de bares (Izakaya) y un personaje muy particular, nada menos que Godzilla, cuidando de todos los tokiotas.</li>
             </ul>
         </article>
         <img src="./img/tour-1.jpg" alt="tokyo mix photo" class="tour-photo">
@@ -96,16 +99,13 @@
     </section>
     <section class="tour-3">
         <article class="tour-text">
-            <h1 class="tour-title-sakura"> Tokyo mix </h1>
-            <h3 class="subtitle-cherry"> Asakusa-Ueno-Ginza-Odaiba</h3>
-            <p class="text"> Este tour combina la tradición, la naturaleza y la modernidad de Tokio.</p>
+            <h1 class="tour-title-sakura">Tokyo game</h1>
+            <h3 class="subtitle-cherry">Nakano-Akihabara-Ikebukuro</h3>
+            <p class="text"> Disfrutemos de la ciudad y la moda de Tokio, con un toque de tradición.</p>
             <ul class="recorrido">
-                <li>Comenzaremos el paseo por el templo Sensō-Ji, el más famoso y antiguo de Tokio. Siéntete en el Japón de antaño con su tradicional arquitectura.</li>
-                <li>Llévate un recuerdo y prueba un dulce de la famosa calle Nakamise Dori.</li>
-                <li>Disfruta de una vista completa del templo y del barrio de Asakusa, desde el mirador del centro de información.</li>
-                <li>A continuación iremos al Parque Ueno donde recorreremos sus templos y museos, y nos empaparemos de su historia y sus hermosas vistas.</li>
-                <li>Seguiremos el recorrido hasta el lujoso barrio de Ginza, con sus numerosas tiendas de las marcas más importantes, y sus edificios de reconocidos arquitectos.</li>
-                <li>Por último, nos iremos de paseo a la moderna isla artificial de Odaiba, con su impresionante vista del Rainbow Bridge y la Bahía de Tokio durante de la noche.</li>
+                <li>Empezaremos por el no tan conocido barrio de Nakano, un clásico de los lugares Freaks, con las mejores tiendas de productos de videojuegos y animes pero también con un gran repertorio de restaurantes clásicos japoneses.</li>
+                <li>Después de eso nos dirigiremos a Akihabara, la meca del freakismo, caminaremos por sus mágicas calles y visitaremos las tiendas más emblemáticas que llevan más de 30 años en el barrio.</li>
+                <li>Por último nos dirigiremos a Ikebukuro, con sus luces de Neón y sus emblemáticas calles, famosas por albergar el Ikebukuro sunshine city.</li>
             </ul>
         </article>
         <img src="./img/tour-1.jpg" alt="tokyo mix photo" class="tour-photo">
@@ -115,6 +115,9 @@
         <img src="./img/tour-1.jpg" alt="" class="gallery-img">
         <img src="./img/tour-1.jpg" alt="" class="gallery-img">
         <img src="./img/tour-1.jpg" alt="" class="gallery-img">
+    </section>
+    <section class="about-us" id="Aboutus">
+        <h1 class="about-us-title"> Mision y vision de la empresa</h1>
     </section>
 </body>
 </html>
